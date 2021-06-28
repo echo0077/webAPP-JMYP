@@ -1,4 +1,5 @@
-## 1.查看详情页
+## 接口出入参详情
+### 1.查看详情页
 
 [请求地址]: http://localhost:3000/appDatails?id=1
 
@@ -24,7 +25,7 @@
         vip_price: select[0].vip_price //商品降价之后的价格
 ```
 
-## 2.查询购物车
+### 2.查询购物车
 
 [请求地址]: http://localhost:3000/getShopping?userId=123456789
 
@@ -60,7 +61,7 @@
   }
 ```
 
-## 3.添加、修改到购物车
+### 3.添加、修改到购物车
 
 [请求地址]: http://localhost:3000/setShopping
 
@@ -75,7 +76,7 @@
 
 后面可能补充colorId和sizeId
 
-## 4.删除购物车
+### 4.删除购物车
 
 [请求地址]: http://localhost:3000/deleteShopping?userId=123&amp;amp;amp;amp;amp;amp;amp;amp;skuId=1
 
@@ -86,7 +87,7 @@
 | userId   | 用户id，在cookies里 |      |
 | skuId    | 商品skuid           |      |
 
-## 5.添加订单
+### 5.添加订单
 
 [请求地址]: http://localhost:3000/setOrder
 
@@ -110,7 +111,7 @@
 | 补充        |                                             |           |
 | s_id        | 商品skuid                                   | int       |
 
-## 6.查询订单
+### 6.查询订单
 
 [请求地址]: http://localhost:3000/getOrder?userId=17
 
